@@ -28,14 +28,5 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
     }
 
 
-    /**
-     * 在注册后进行服务的启动。
-     *
-     * @return void
-     */
-    public function boot()
-    {
-        $this->loadMigrationsFrom(__DIR__.'/Migrations');
-    }
 
 }
