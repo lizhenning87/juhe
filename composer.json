@@ -1,0 +1,38 @@
+{
+    "name": "zning/juhe",
+    "description": "juhe.com for laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lzning",
+            "email": "254435828@qq.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0"
+    },
+
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Zning\\JuHe\\": "src"
+        }
+    },
+
+    "autoload-dev": {
+        "psr-4": {
+            "Zning\\JuHe\\Test\\": "tests"
+        }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zning\\JuHe\\ServiceProvider"
+            ]
+        }
+    }
+}
